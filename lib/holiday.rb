@@ -80,6 +80,11 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   holidays =[]
   holiday_hash.each do |time_of_year,data|
+    data.each do | key, values|
+      values.each do |value|
+        if value=="BBQ"
+          
+        end
 
 end
 
