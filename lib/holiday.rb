@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{time_of_year.capitalize}:"
       data.each do | key, value|
         
-        puts "  #{key.split('_').map(&:capitalize).join(' ')}: #{value.join(", ")}"
+        puts "  #{key.split.capitalize.join(' ')}"
       end
   end
   
