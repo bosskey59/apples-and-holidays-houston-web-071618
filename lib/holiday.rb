@@ -83,7 +83,7 @@ def all_holidays_with_bbq(holiday_hash)
     data.each do | key, values|
       values.each do |value|
         if value=="BBQ"
-          holidays.push(value)
+          holidays.push(key)
         end
 
 end
