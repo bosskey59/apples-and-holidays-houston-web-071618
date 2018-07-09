@@ -85,6 +85,9 @@ def all_holidays_with_bbq(holiday_hash)
         if value=="BBQ"
           holidays.push(key)
         end
+      end
+    end
+  end
 
 end
 
